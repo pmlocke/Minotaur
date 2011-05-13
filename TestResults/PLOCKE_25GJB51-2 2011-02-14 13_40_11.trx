@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="ef0966f4-073a-42f2-abe1-d00f821bf04a" name="PLOCKE@25GJB51-2 2011-02-14 13:40:11" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7da21b6f-91c3-4ed9-8b52-48f3b9745ad0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2011-02-14 13_40_11">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\bin\Debug\Minotaur.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-14T13:40:11.9467466-06:00" queuing="2011-02-14T13:40:16.1812300-06:00" start="2011-02-14T13:40:17.0093762-06:00" finish="2011-02-14T13:40:49.4789574-06:00" />
+  <ResultSummary outcome="Error">
+    <Counters total="1" executed="1" error="0" failed="0" timeout="0" aborted="1" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+    <RunInfos>
+      <RunInfo computerName="25GJB51-2" outcome="Error" timestamp="2011-02-14T13:40:49.4320812-06:00">
+        <Text>Test host process exited unexpectedly.</Text>
+      </RunInfo>
+    </RunInfos>
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="TestMethod1" storage="c:\documents and settings\plocke\my documents\my dropbox\projects\minotaur\testproject1\bin\debug\testproject1.dll" id="8754e09c-ec10-7ceb-d615-df09cf2fdc0f">
+      <Execution id="d68cdc60-b9a4-409a-b02c-376e694faacd" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\TestProject1.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.MazeTests, TestProject1" name="TestMethod1" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="8754e09c-ec10-7ceb-d615-df09cf2fdc0f" executionId="d68cdc60-b9a4-409a-b02c-376e694faacd" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="d68cdc60-b9a4-409a-b02c-376e694faacd" testId="8754e09c-ec10-7ceb-d615-df09cf2fdc0f" testName="TestMethod1" computerName="25GJB51-2" duration="00:00:31.9383176" startTime="2011-02-14T13:40:17.5406398-06:00" endTime="2011-02-14T13:40:49.4789574-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Aborted" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="d68cdc60-b9a4-409a-b02c-376e694faacd">
+    </UnitTestResult>
+  </Results>
+</TestRun>

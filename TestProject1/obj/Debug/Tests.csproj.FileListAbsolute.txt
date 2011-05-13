@@ -1,0 +1,7 @@
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\obj\Debug\ResolveAssemblyReference.cache
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\Minotaur.exe
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\Minotaur.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\Tests.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\Tests.pdb
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\obj\Debug\Tests.dll
+C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\obj\Debug\Tests.pdb

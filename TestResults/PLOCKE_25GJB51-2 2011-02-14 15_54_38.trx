@@ -1,0 +1,47 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="b2eb6429-5e3d-4764-8135-323491e73d44" name="PLOCKE@25GJB51-2 2011-02-14 15:54:38" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7da21b6f-91c3-4ed9-8b52-48f3b9745ad0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2011-02-14 15_54_38">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\bin\Debug\Minotaur.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-14T15:54:38.9852390-06:00" queuing="2011-02-14T15:54:42.9697160-06:00" start="2011-02-14T15:54:43.7666114-06:00" finish="2011-02-14T16:00:11.5875034-06:00" />
+  <ResultSummary outcome="Completed">
+    <Counters total="1" executed="1" passed="1" error="0" failed="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Solve" storage="c:\documents and settings\plocke\my documents\my dropbox\projects\minotaur\testproject1\bin\debug\tests.dll" id="74fe8997-ce75-4f89-e84f-724db1bc4523">
+      <Execution id="73077e34-e537-463c-982e-10f380c11724" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.PathFinderTests, Tests" name="Solve" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="74fe8997-ce75-4f89-e84f-724db1bc4523" executionId="73077e34-e537-463c-982e-10f380c11724" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="73077e34-e537-463c-982e-10f380c11724" testId="74fe8997-ce75-4f89-e84f-724db1bc4523" testName="Solve" computerName="25GJB51-2" duration="00:05:22.4334138" startTime="2011-02-14T15:54:44.2353734-06:00" endTime="2011-02-14T16:00:11.1812430-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="73077e34-e537-463c-982e-10f380c11724">
+      <Output>
+        <DebugTrace>**********
+*s*f     *
+* ***** **
+*     * **
+* * * *  *
+* * **** *
+* * *    *
+* *   * **
+**********
+</DebugTrace>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>

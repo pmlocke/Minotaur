@@ -1,0 +1,69 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<TestRun id="465071be-31b5-4f17-9d06-e67739121404" name="PLOCKE@25GJB51-2 2011-02-15 09:56:28" runUser="MSDOMAIN1\PLOCKE" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <TestSettings name="Local" id="7da21b6f-91c3-4ed9-8b52-48f3b9745ad0">
+    <Description>These are default test settings for a local test run.</Description>
+    <Deployment userDeploymentRoot="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestResults" useDefaultDeploymentRoot="false" enabled="false" runDeploymentRoot="PLOCKE_25GJB51-2 2011-02-15 09_56_28">
+      <DeploymentItem filename="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\bin\Debug\Minotaur.exe" />
+    </Deployment>
+    <Execution>
+      <TestTypeSpecific />
+      <AgentRule name="Execution Agents">
+      </AgentRule>
+    </Execution>
+  </TestSettings>
+  <Times creation="2011-02-15T09:56:28.3820814-06:00" queuing="2011-02-15T09:56:28.4133322-06:00" start="2011-02-15T09:56:28.5227100-06:00" finish="2011-02-15T09:56:32.2415552-06:00" />
+  <ResultSummary outcome="Failed">
+    <Counters total="1" executed="1" error="0" failed="1" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" passed="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+  <TestDefinitions>
+    <UnitTest name="Solve" storage="c:\documents and settings\plocke\my documents\my dropbox\projects\minotaur\testproject1\bin\debug\tests.dll" id="74fe8997-ce75-4f89-e84f-724db1bc4523">
+      <Execution id="56341048-4d2f-45da-aa48-9019dba55d76" />
+      <TestMethod codeBase="C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\bin\Debug\Tests.dll" adapterTypeName="Microsoft.VisualStudio.TestTools.TestTypes.Unit.UnitTestAdapter, Microsoft.VisualStudio.QualityTools.Tips.UnitTest.Adapter, Version=10.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" className="Tests.PathFinderTests, Tests" name="Solve" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <TestEntries>
+    <TestEntry testId="74fe8997-ce75-4f89-e84f-724db1bc4523" executionId="56341048-4d2f-45da-aa48-9019dba55d76" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <Results>
+    <UnitTestResult executionId="56341048-4d2f-45da-aa48-9019dba55d76" testId="74fe8997-ce75-4f89-e84f-724db1bc4523" testName="Solve" computerName="25GJB51-2" duration="00:00:01.4019236" startTime="2011-02-15T09:56:28.5539608-06:00" endTime="2011-02-15T09:56:31.4134090-06:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Failed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="56341048-4d2f-45da-aa48-9019dba55d76">
+      <Output>
+        <DebugTrace>**********
+*s*f     *
+* ***** **
+*     * **
+* *** *  *
+* * ***  *
+*** *    *
+*     * **
+**********
+</DebugTrace>
+        <ErrorInfo>
+          <Message>Test method Tests.PathFinderTests.Solve threw exception: 
+System.Exception: No path exists between start and finish</Message>
+          <StackTrace>    at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 50
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Move(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 55
+   at Minotaur.PathFinder.Solve(Maze theMaze) in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\Minotaur\PathFinder.cs:line 30
+   at Tests.PathFinderTests.Solve() in C:\Documents and Settings\plocke\My Documents\My Dropbox\Projects\Minotaur\TestProject1\PathFinderTests.cs:line 70
+</StackTrace>
+        </ErrorInfo>
+      </Output>
+    </UnitTestResult>
+  </Results>
+</TestRun>
